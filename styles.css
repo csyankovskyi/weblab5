@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    min-height: 100%;
+}
+nav{
+    background-color: cornflowerblue;
+    margin: 0px;
+}
+header, footer{
+    background-color: darkcyan;
+}
+footer{
+    height: 100px;
+    padding: 30px;
+    bottom: 0;
+   ;
+}
+nav > ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+nav > ul > li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+nav > ul > li:hover{
+    background-color: rgb(68, 64, 82);
+    
+}
+nav > ul > li:hover > a{
+   color: #fff;
+}
+.name{
+    font-size: 54pt;
+    margin: 0pt;
+    padding-top: 40px;
+}
+.namesmol{
+    font-size: 32pt;
+    margin: 0pt;
+    padding-bottom: 40px;
+}
+.namediv{
+    margin-left: 60px;
+}
+main{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.story{
+
+    padding: 10px;
+}
+.storyhead{
+    
+    text-align: center;
+    padding: 10px;
+}
+article{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 10px;
+}
+iframe{
+    max-width: 100%;
+}
